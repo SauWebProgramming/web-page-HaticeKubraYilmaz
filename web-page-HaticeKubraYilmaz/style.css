@@ -1,0 +1,145 @@
+*
+{  
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+color: white;
+}
+
+#nheader {  
+    background-color: #574b90;
+    background-position: center;
+    padding: 10px;
+}
+
+.menu {
+width: 100%;
+color: #fff;
+font: 1.03em ;
+height: 60px;
+ }
+
+.menu #logo {
+float: left;
+height: 30px;
+padding: 15px 30px;
+font-size: 1.2em;
+font-weight: bold;
+text-shadow: 2px 2px 2px black;
+}
+
+.menu-item {
+display: inline-block;
+padding: 21.5px 20px;
+text-decoration: none;
+color: white;
+}
+
+.menu > ul {
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+padding: 0px 40px ;
+font-weight: bolder;
+ }
+
+ .menu > ul > li {
+   float: left;
+}
+
+#R {
+   float: right;
+}
+
+.içerik {
+    background: #786fa6;
+    height: 1500px;
+    padding: 0px;
+}
+
+.wrapper {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   right: 50%;
+   transform: translate(-50%,-50%);
+   max-width: 450px;
+   width: 100%;
+   background-color: white;
+   padding: 25px;
+   border-radius: 7px;
+   border: 4px solid grey;
+
+   
+}
+ 
+.wrapper h2 {
+text-align: center;
+margin-bottom: 20px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: black ;
+}
+
+.wrapper .input01 {   
+     margin-bottom: 10px; 
+     color: black;
+}
+
+ 
+.wrapper input {
+    width: 90%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    color: black;
+}
+
+.wrapper textarea  {
+color: black;
+width: 90%;
+border: 1px solid #e0e0e0;
+padding: 10px;
+height: 120px;
+resize: none;
+}
+
+.wrapper #error_message {
+transition: all 0.51s ease;
+margin-bottom: 20px;
+padding: 0px;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+background: #e15f41;
+text-align: center;
+font-size: 15px;
+}
+
+.gond {
+margin-top: 10px;
+margin-left: 45px;
+border: 0;
+padding: 10px;
+width: 80%;
+background-color: #2d3436;
+color: white;
+font-weight: bold;
+border-radius: 30px;
+text-transform: uppercase;
+font-weight: bold;
+cursor: pointer;
+}
+
+.gond:hover {
+background-color: #786fa6 ;
+color: black;
+}
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    border: 5.5px solid #4b4b4b;
+ 
+ 
+  }

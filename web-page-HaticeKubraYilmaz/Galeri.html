@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--  B181200049
+Hatice Kübra YILMAZ
+-->
+<HTML>
+
+<head>
+
+    <meta charset="UFT-8">
+    <title>sunshine</title>
+    <link rel="stylesheet" type="text/css" href="../web-page-HaticeKubraYilmaz/style.css"></link>
+    <link rel="stylesheet"  type="text/css" href="../web-page-HaticeKubraYilmaz/galeri.css"></link>
+
+</head>
+
+<body>
+
+         <div id= "nheader">
+                <nav class="menu">
+                        <div id="logo"> SUNSHINE </div>
+                        <ul id="R">
+                           <li><a class="menu-item" href="../web-page-HaticeKubraYilmaz/anaSayfa.html" > ANASAYFA </a></li>
+                           <li><a class="menu-item" href="../web-page-HaticeKubraYilmaz/Galeri.html"> GALERİ  </a></li>
+                           <li><a class="menu-item" href="../web-page-HaticeKubraYilmaz/iletişim.html" > İLETİŞİM </a></li>
+            
+                        </ul>
+                 </nav>
+          
+         </div>
+         <div class="içerik">
+
+            <!-- The grid: four columns -->
+<div class="row">
+        <div class="column">
+          <img src="../web-page-HaticeKubraYilmaz/fotos/ultra-hd-4k-manzara-resimleri.jpg" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="../web-page-HaticeKubraYilmaz/fotos/manzara-resimleri-hd-full-hd-16-aliraci-2335-8041.jpg" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="../web-page-HaticeKubraYilmaz/fotos/3.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="../web-page-HaticeKubraYilmaz/fotos/791143.jpg" alt="Lights" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <!-- The expanding image container -->
+      <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+      
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
+         </div>
+
+         <script>
+                function myFunction(imgs) {
+                  var expandImg = document.getElementById("expandedImg");
+                  var imgText = document.getElementById("imgtext");
+                  expandImg.src = imgs.src;
+                  imgText.innerHTML = imgs.alt;
+                  expandImg.parentElement.style.display = "block";
+                }
+                </script>
+
+        </body>
+    </HTML>

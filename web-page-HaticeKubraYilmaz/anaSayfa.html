@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--  B181200049
+Hatice Kübra YILMAZ
+-->
+<HTML>
+
+<head>
+
+    <meta charset="UFT-8">
+    <title>sunshine</title>
+    <link rel="stylesheet" type="text/css" href="../web-page-HaticeKubraYilmaz/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="../web-page-HaticeKubraYilmaz/slider.css"></link>
+    <script type="text/javascript" src="../web-page-HaticeKubraYilmaz/slider.js"></script>
+
+
+</head>
+
+<body>
+
+         <div id= "nheader">
+                <nav class="menu">
+                        <div id="logo"> SUNSHINE </div>
+                        <ul id="R">
+                           <li><a class="menu-item" href="../web-page-HaticeKubraYilmaz/anaSayfa.html" > ANASAYFA </a></li>
+                           <li><a class="menu-item" href="../web-page-HaticeKubraYilmaz/Galeri.html"> GALERİ  </a></li>
+                           <li><a class="menu-item" href="../web-page-HaticeKubraYilmaz/iletişim.html" > İLETİŞİM </a></li>
+            
+                        </ul>
+                 </nav>
+          
+         </div>
+         <div class="içerik">
+             <br>
+             <br>
+
+                <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="../web-page-HaticeKubraYilmaz/fotos/manzara-resimleri-hd-full-hd-16-aliraci-2335-8041.jpg" style="width:100%">
+                          <div class="text"> Gün Batımı - Ada Evi </div>
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="../web-page-HaticeKubraYilmaz/fotos/3.jpg" style="width:100%">
+                          <div class="text"> Gün Batımı - Ayçiçek Tarlası  </div>
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="../web-page-HaticeKubraYilmaz/fotos/2.jfif" style="width:100%">
+                          <div class="text"> Gün Batımı - Şehir </div>
+                        </div>
+                    
+                      
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      </div>
+                      <br>
+                      
+                      <!-- The dots/circles -->
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                      </div>
+        
+                   <h3>Hatice Kübra YILMAZ - B181200049</h3>
+                    
+                    </div>
+         <script>var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}
+                  slides[slideIndex-1].style.display = "block";
+                  setTimeout(showSlides, 2600); // Change image every 2 seconds
+                }</script>
+
+         </body>
+        </HTML>
